@@ -1,0 +1,51 @@
+
+<html>
+  <head>
+    <title>Sound Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="heading text-center col-xs-12">
+      <h2 style="color: #ffffff">Sound Controlled Aliens</h2>
+      <h4 class="sounds btn-info">Clap, snap, or type to make the aliens dance.</h4>
+    </div>
+    <br>
+    <div class="recording">
+      <center>
+        <button class="btn btn-info" onclick="startIdentifyingSound()">Start</button>
+        <h4 id="hearLabel" style="color: #ffffff; font-weight: bold;">I can hear: <span id="hear"></span></h4>
+        <h4 id="accuracyLabel" style="color: #ffffff; font-weight: bold;">Accuracy: <span id="accuracy"></span></h4>
+        <br>
+        <img src="aliens-01.png" id="alien1PNG" width="340" height="340">
+        <img src="aliens-02.png" id="alien2PNG" width="340" height="340">
+        <img src="aliens-03.png" id="alien3PNG" width="340" height="340">
+        <img src="aliens-04.png" id="alien4PNG" width="340" height="340">
+      </center>
+    </div>
+    <br>
+    <center>
+      <div class="footer">
+        <label style="font-size: 20px; font-weight: bold; color: #ffffff;">Developed by: Zz</label>
+      </div>
+    </center>
+<script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

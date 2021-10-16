@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(rgb(232, 214, 255) 0%, lightcoral 100%);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.heading {
+    border: 4px dashed #ffffff;
+    background: lightskyblue;
+}
+
+.sounds {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#hear, #accuracy {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.recording {
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 2px dashed #ffffff;
+    background:rgb(232, 214, 255);
+}
